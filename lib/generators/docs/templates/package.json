@@ -1,0 +1,19 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "authors": {
+    "name": "<%= author %>",
+    "email": "<%= mail %>"
+  },
+  "repository": "<%= repo %>/<%= name %>",
+  "scripts": {
+    "dev": "kdupress dev docs",
+    "build": "kdupress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "kdupress": "^1.8.0"
+  }
+}
